@@ -1,17 +1,23 @@
 package com.test;
 
-
 public class Employee {
-	public void Employee() {
-		System.out.println("Default Const...");
+	static Employee emp;
+	private Employee() {
+		System.out.println("Default Const....");
 	}
-	protected void finalize() throws Throwable {
-		System.out.println("Object Destroyed...");
+	public static Employee getObject() {
+		if(emp==null) {
+			emp= new Employee();
+		}
+		return emp;
 	}
-	public static void main(String[] args)  {
-		Employee sample = new Employee();
-		sample=null;
-		System.gc();
+	public void getEmpName() {
+		System.out.println("Name is Prasanna");
+
+	}
+	public void getAddress() {
+		System.out.println("Chennai");
+
 	}
 }
 

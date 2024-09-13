@@ -24,7 +24,7 @@ public class ExcellRead {
 		
 		Workbook workbook = new XSSFWorkbook(stream);
 		
-		Sheet sheet = workbook.getSheet("num");
+		Sheet sheet = workbook.getSheet("Login");
 		for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
 			Row row = sheet.getRow(i);
 			for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {

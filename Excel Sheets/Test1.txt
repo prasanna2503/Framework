@@ -1,0 +1,25 @@
+8.  Create List insert Values and Iterate
+9.  Create Set insert Values and Iterate
+10. Create Map insert Values and Iterate only the Entries
+11. Create Map insert Values and Iterate the Key and Values
+12. Create Map insert Values and Iterate only the Keys
+13. Create Map insert Values and Iterate only the Values
+14. Write a code to handle the Exception using Try - Catch - Finally
+15. Write any 5 Checked Exception and 5 Unchecked Exception Names
+16. Create Constructor and Pass the Argument
+17. Create Constructor and Pass the Argument using this()
+18. Create Constructor and Pass the Argument using super()
+19. Write a code for Singleton Class
+20. Create User defined List, Insert Values and Iterate
+21. Create User defined Set, Insert Values and Iterate
+22. Create User defined Map, Insert Values and Iterate
+23. Write a code for user Defined Exception
+24. Write a code to read the Values from the File
+25. Write 10 Methods in String
+26. Write a code to insert 5 values as number in Array and Iterate by using Enhanced for loop	
+27. Write a code to change given Array to Array List
+28. Write a code to declare a String in 4 ways
+29. Write a code to remove the unused objects using finalize method
+
+===================================================================================================================
+
